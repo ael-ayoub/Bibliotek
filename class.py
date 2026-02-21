@@ -21,5 +21,4 @@ c1 = child("ayoub", "no isssaoui")
 print(c1.firstname)
 print (c1.age)
 p1 = Person("ayoub", "issaoui")
-
 p1.printname()

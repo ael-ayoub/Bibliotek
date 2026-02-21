@@ -23,3 +23,20 @@ isinstance() / issubclass()
 Abstract base classes
 
 Diamond problem
+
+
+UserCreationForm
+
+AuthenticationForm
+
+PasswordChangeForm
+
+📦 5️⃣ Third-party packages (optional but common)
+
+Many projects use extra libraries:
+
+django-crispy-forms → better form styling
+
+django-filter → filtering forms for querysets
+
+django-allauth → authentication forms
