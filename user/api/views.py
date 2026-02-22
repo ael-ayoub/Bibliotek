@@ -9,6 +9,7 @@ from django.shortcuts import render
 # # Create your views here.
 
 from rest_framework.decorators import api_view
+from rest_framework import status
 from .models import BlogPost
 from .serializers import BlogPostSerializer
 from rest_framework.response import Response
@@ -20,8 +21,16 @@ from rest_framework.response import Response
 
 
 
-@api_view(['GET'])
+@api_view(['GET','POST'])
 def blogs(request):
-    blogs = BlogPost.objects.all()
-    serializer = BlogPostSerializer(blogs, many=True)
-    return Response(serializer.data) 
+    if request.method == 'GET':
+        blogs = BlogPost.objects.all()
+        serializer = BlogPostSerializer(blogs, many=True)
+        return Response(serializer.data) 
+    if request.method == "POST":
+        serializer = BlogPostSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
