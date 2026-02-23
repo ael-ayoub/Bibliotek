@@ -1,3 +1,0 @@
-When two parents have the same method name,
-Python uses Method Resolution Order (MRO) to decide which one to use.
-
