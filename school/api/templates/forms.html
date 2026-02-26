@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Posts & Comments</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.comment-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Posts & Comments (One-to-Many Example)</h1>
+
+<div class="container">
+
+    <!-- POSTS TABLE -->
+    <div class="card">
+        <h2>Posts</h2>
+        <a href="{% url 'create' %}">
+            <button class="add-btn">Add Post</button>
+        </a>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for p in posts %}
+                <tr>
+                    <td>{{ p.id }}</td>
+                    <td>{{ p.title }}</td>
+                    <td>{{ p.content }}</td>
+                    <td>
+                    <a href="{% url 'delete' p.id%}">
+                        <button class="delete-btn">Delete</button>
+                    </a>
+                    {% comment %} <button class="edit-btn">Modify</button> {% endcomment %}
+                    </td>
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- COMMENTS FOR POST 1 -->
+    <div class="card">
+        <h2>Comments for Posts</h2>
+        <a href="{% url 'create_comment' %}">
+            <button class="add-btn">Add Comment</button>
+        </a>
+
+        <div class="comment-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Post_ID</th>
+                        <th>Content</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for c in comments %}
+                    <tr>
+                        <td>{{ c.id }}</td>
+                        {%if c.post_id%}
+                            <h1>yest it exist</h1>
+                        {%else %}
+                            <h1>do not exist</h1>
+                        {%endif%}
+                        <td>{{ c.post_id.title }}</td>
+                        <td>{{ c.content }}</td>
+                        <td>
+                            <button class="edit-btn">Modify</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    {%endfor%}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>

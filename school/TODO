@@ -1,0 +1,24 @@
+## Level 3: Django Fundamentals (3-4 weeks)
+### Basic Concepts
+- Django project structure : done
+- MVT (Model-View-Template) architecture done
+- URL routing and URLconf done
+- Views (Function-based and Class-based) done
+- Templates and Django Template Language (DTL) done
+- Static files handling done
+
+### Models and Database
+- Model creation and relationships
+- Database migrations
+- QuerySet API
+- Model managers
+- Model inheritance
+- Database transactions
+
+### Forms and Authentication
+- Django Forms
+- Model Forms
+- Form validation
+- User authentication
+- Permissions and authorization
+- Sessions and cookies

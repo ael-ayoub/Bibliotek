@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create Post</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background: white;
+    padding: 30px;
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    border: 2px solid #ddd;
+}
+
+.success-border {
+    border-color: #28a745;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p {
+    margin-bottom: 18px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Inputs and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Focus effect */
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+/* Error styling */
+.errorlist {
+    color: #dc3545;
+    margin-bottom: 8px;
+    font-size: 13px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.create-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.success-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-container {% if success %}success-border{% endif %}">
+
+    <h2>Create New Post</h2>
+
+    {% if success %}
+        <div class="success-message">
+            ✅ Post created successfully!
+        </div>
+
+        <a href="{% url 'create' %}">
+            <button class="create-btn">Create Another Post</button>
+        </a>
+
+        <a href="{% url 'form' %}">
+            <button class="secondary-btn">Go to Posts Page</button>
+        </a>
+
+    {% else %}
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="create-btn">Create Post</button>
+        </form>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
