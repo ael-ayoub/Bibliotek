@@ -11,3 +11,6 @@ test:
 
 install:
 	@pip install -r requirements.txt
+
+app:
+	@python manage.py startapp $(name)
