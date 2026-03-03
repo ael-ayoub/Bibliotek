@@ -22,3 +22,13 @@
 - User authentication
 - Permissions and authorization
 - Sessions and cookies
+
+
+// this night i will study authentication system in dango , i will study the whole system !!
+the authentication include:
+
+user model:
+
+login and logout 
+password handling 
+session management 
