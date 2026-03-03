@@ -2,6 +2,12 @@ from django.shortcuts import render,redirect
 from .forms import PostForm, ComentForm
 from .models import Post, Comments
 from django.conf.urls import handler400
+from django.http import JsonResponse
+# from rest_framework import api
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
+from rest_framework import serializers
+from .serializer import post_as_json
 
 
 def home(request):
@@ -54,3 +60,10 @@ def create_comment(request):
         "form":comments,
     }
     return render(request, "create_comment.html", context)
+
+# @post
+@api_view(['GET'])
+def json_view(request):
+    posts = Post.objects.all()
+    posts_serializer = post_as_json(posts, many=True)
+    return Response(posts_serializer.data)

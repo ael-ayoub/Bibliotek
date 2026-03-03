@@ -1,0 +1,10 @@
+In Django REST Framework (DRF), serializers convert complex data
+Such as model instances or querysets into formats like JSON or XML for API responses.
+
+Transform database objects into JSON or other supported formats.
+Convert incoming JSON data back into Python types.
+Validate the input data before saving it to the database.
+Provide a clean way to control what data is exposed through an API.
+
+
+important: Controls what fields are exposed

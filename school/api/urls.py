@@ -6,5 +6,6 @@ urlpatterns = [
     path('form/', views.form, name="form"),
     path('create/', views.create_post_view, name="create"),
     path('delete/<int:pk>', views.delete, name="delete"),
-    path('comment/', views.create_comment, name="create_comment")
+    path('comment/', views.create_comment, name="create_comment"),
+    path('json/', views.json_view, name="json")
 ]

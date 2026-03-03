@@ -17,8 +17,8 @@ What happens if related object deleted?
 
 Options:
 
-Option	Meaning
+Option  Meaning
 CASCADE	delete related
 PROTECT	prevent delete
-SET_NULL	set to null
+SET_NULL set to null
 DO_NOTHING	do nothing
