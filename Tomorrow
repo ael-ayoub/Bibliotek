@@ -5,3 +5,17 @@ test and understand:
     managed constraints...
 
 move to fiels and learn them: sql <-> django orm 
+
+
+searching: ****************************************************************************
+- debugging tools 
+- dependency management
+-This structure is usually a B-Tree internally.
+Time complexity:
+
+👉 O(n)
+
+
+try to insert data in database ?? 
+try to put constraint 
+try to create object then save it 
