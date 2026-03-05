@@ -17,25 +17,9 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from Models_training.views import model_view as users
-from Models_training.views import model_view2 as generate_users
-from Models_training.views import model_view3 as generate_products
-from Models_training.views import model_view4 as get_products
-# from Models_training import views.
-# include slug
-from Models_training.views import model_view5 as get_product_by_slug
-from Models_training.views import insert_data, insert_ayoubat,get_ayoubat
+from testing import urls
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include ('api.urls')),
-    path('framework/', include('framework.urls')),
-    path('users/', users),
-    path('generate-users/', generate_users),
-    path('generate-products/', generate_products),
-    path('products/', get_products),
-    path('products/<slug:slug>/', get_product_by_slug),
-    path('insert-data/', insert_data),
-    path('insert', insert_ayoubat),
-    path('getdata/', get_ayoubat),
+    path('', include (urls)),
 ]
