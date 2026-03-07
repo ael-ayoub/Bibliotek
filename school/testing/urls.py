@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import create, update, delete , get_one , get_all, delete_all
+from .views import create, update, delete , get_one , get_all, delete_all,update_all
 
 # create path for each function in views.py
 
@@ -8,7 +8,8 @@ urlpatterns = [
     path ("update/<int:pk>/", update),
     path ("delete/<int:pk>/", delete),
     path ("get/<int:pk>/", get_one),
-    path ("get_all/", get_all),
+    path ("get_all/", get_all, name="get_all"),
     path ("delete_all/", delete_all),
+    path ("update_all/", update_all),
     # path ("delele_all", ),
 ]

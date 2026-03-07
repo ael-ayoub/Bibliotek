@@ -1442,9 +1442,9 @@
 			"typeName": "page"
 		},
 		{
-			"x": 2342.278085749572,
-			"y": -2033.599876433482,
-			"z": 0.33610071006225745,
+			"x": 888.6063593149573,
+			"y": 595.4617137037658,
+			"z": 0.4066818591753315,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -3922,7 +3922,17 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
+			"selectedShapeIds": [
+				"shape:yve9h_nNnDfMHGgP666hQ",
+				"shape:JnAjPPG92Wxl5es6QjB8X",
+				"shape:CNHqxZmPn7eYSQjCnWicX",
+				"shape:L35FdGp0JyVAS_mTLbQOj",
+				"shape:gq-ix0K5TeyVglsUfZeCN",
+				"shape:CEE38WRO3pXjGY46na7Nw",
+				"shape:ejAqER42fnPu0Pp2s-gel",
+				"shape:LG2ZAt6W7ZD2mQfYhYO57",
+				"shape:wUGt6cw8DC6kdlDyIWETa"
+			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -5332,7 +5342,7 @@
 				"scale": 1
 			},
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
-			"index": "aGBfebxS",
+			"index": "aFhmyQel",
 			"typeName": "shape"
 		},
 		{
@@ -7059,10 +7069,8 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:t-0t9QORx17XC_E0s7qt_"
-			],
-			"hoveredShapeId": "shape:t-0t9QORx17XC_E0s7qt_",
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -9138,17 +9146,11 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle",
-				"tldraw:font": "mono",
-				"tldraw:size": "xl",
-				"tldraw:color": "blue",
-				"tldraw:dash": "dashed"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "cross",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -9184,13 +9186,13 @@
 			"duplicateProps": null,
 			"cameraState": "idle",
 			"id": "instance:instance",
-			"currentPageId": "page:eTlYgnlZOseqlH1uxBcg_",
+			"currentPageId": "page:page",
 			"typeName": "instance"
 		},
 		{
-			"x": 4695.046653853055,
-			"y": 7406.632454134451,
-			"z": 0.13217207143930734,
+			"x": 9640.294328359756,
+			"y": 9827.64842412676,
+			"z": 0.05,
 			"meta": {},
 			"id": "camera:page:eTlYgnlZOseqlH1uxBcg_",
 			"typeName": "camera"

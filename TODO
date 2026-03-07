@@ -5,15 +5,15 @@
 - URL routing and URLconf done
 - Views (Function-based and Class-based) done
 - Templates and Django Template Language (DTL) done
-- Static files handling done
+- Static files handling done 
 
 ### Models and Database
 - Model creation and relationships done
 - Database migrations done
 - QuerySet API 
-- Model managers
-- Model inheritance
-- Database transactions
+- Model managers done
+- Model inheritance done
+- Database transactions 
 
 ### Forms and Authentication
 - Django Forms
