@@ -1442,9 +1442,9 @@
 			"typeName": "page"
 		},
 		{
-			"x": 888.6063593149573,
-			"y": 595.4617137037658,
-			"z": 0.4066818591753315,
+			"x": 1802.0476442379836,
+			"y": 380.9451375847693,
+			"z": 0.33610071006225745,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -3922,17 +3922,7 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:yve9h_nNnDfMHGgP666hQ",
-				"shape:JnAjPPG92Wxl5es6QjB8X",
-				"shape:CNHqxZmPn7eYSQjCnWicX",
-				"shape:L35FdGp0JyVAS_mTLbQOj",
-				"shape:gq-ix0K5TeyVglsUfZeCN",
-				"shape:CEE38WRO3pXjGY46na7Nw",
-				"shape:ejAqER42fnPu0Pp2s-gel",
-				"shape:LG2ZAt6W7ZD2mQfYhYO57",
-				"shape:wUGt6cw8DC6kdlDyIWETa"
-			],
+			"selectedShapeIds": [],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -6847,7 +6837,7 @@
 			"props": {
 				"color": "black",
 				"size": "xl",
-				"w": 1109.8125,
+				"w": 1848.5724704531663,
 				"font": "mono",
 				"textAlign": "start",
 				"autoSize": true,
@@ -6879,6 +6869,18 @@
 								{
 									"type": "text",
 									"text": " a list of rows from the database."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "but just instruction sql not rows itself !"
 								}
 							]
 						}
@@ -7069,8 +7071,10 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
+			"selectedShapeIds": [
+				"shape:mf2Cg1DkqJhZuwZg2pkLg"
+			],
+			"hoveredShapeId": "shape:mf2Cg1DkqJhZuwZg2pkLg",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -9062,7 +9066,7 @@
 			"type": "geo",
 			"props": {
 				"w": 2126.576648228386,
-				"h": 347.61349057579264,
+				"h": 440.3060920915332,
 				"geo": "rectangle",
 				"dash": "dashed",
 				"growY": 0,
@@ -9150,7 +9154,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "ns-resize",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -9186,13 +9190,13 @@
 			"duplicateProps": null,
 			"cameraState": "idle",
 			"id": "instance:instance",
-			"currentPageId": "page:page",
+			"currentPageId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"typeName": "instance"
 		},
 		{
-			"x": 9640.294328359756,
-			"y": 9827.64842412676,
-			"z": 0.05,
+			"x": 3696.761943326189,
+			"y": 7050.239364884544,
+			"z": 0.1726135607196551,
 			"meta": {},
 			"id": "camera:page:eTlYgnlZOseqlH1uxBcg_",
 			"typeName": "camera"
