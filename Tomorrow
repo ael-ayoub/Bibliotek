@@ -17,7 +17,11 @@ Time complexity:
 
 /////////////////////////////////////////////////////
 today tasks:
-- user 
-- session with user 
-- decoratos
-- 
+    - what is rest_framework api view ? 
+    - rest_framework.permmition 
+
+
+tomorow 11 march:
+    - should return to permetion and try it again 
+    - 1. localStorage
+    - 2. httpOnly cookie  ← more secure

@@ -110,9 +110,9 @@
 			"typeName": "binding"
 		},
 		{
-			"x": 1769.354664858975,
-			"y": -531.505493979472,
-			"z": 0.3399696238380404,
+			"x": 3966.8752692411176,
+			"y": -544.5823022249599,
+			"z": 0.39176646452779007,
 			"meta": {},
 			"id": "camera:page:nqsy0QsI5xx-rYuBh3DV_",
 			"typeName": "camera"
@@ -176,6 +176,24 @@
 				},
 				"snap": "center",
 				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:cs2gjGfUgG_rzJ983Xbdo",
+			"type": "arrow",
+			"fromId": "shape:XL2G6q2ZMpzxWvSt3L0tt",
+			"toId": "shape:dJC3EihcL-G_UpDtYQmjm",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5150527717993063,
+					"y": 0.4011269014750852
+				},
+				"snap": "none",
+				"terminal": "end"
 			},
 			"typeName": "binding"
 		},
@@ -592,6 +610,13 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "page:ldEzrqMHnssGXt_adclVS",
+			"name": "JWT: Json Web Token",
+			"index": "a9jS2RWV",
+			"typeName": "page"
 		},
 		{
 			"meta": {},
@@ -1459,6 +1484,13 @@
 			"typeName": "shape"
 		},
 		{
+			"meta": {},
+			"id": "page:0UKLqee2iy7L-sbNc46Mt",
+			"name": "Rest_Framework",
+			"index": "a7VBJmVV",
+			"typeName": "page"
+		},
+		{
 			"x": 1191.0901694252227,
 			"y": 1722.2232131732828,
 			"rotation": 0,
@@ -1622,6 +1654,32 @@
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "a9nJcKXV",
 			"typeName": "shape"
+		},
+		{
+			"x": 992.8160360113484,
+			"y": 354.57612723005286,
+			"z": 0.28946977815310126,
+			"meta": {},
+			"id": "camera:page:nPltO-LOWbdeGBd2zxmGr",
+			"typeName": "camera"
+		},
+		{
+			"meta": {},
+			"id": "binding:mJz4vYXBZo5PxZwHBXS69",
+			"type": "arrow",
+			"fromId": "shape:Ztoe7kT8F4_yDNQ8Fjdze",
+			"toId": "shape:rhbw627Tg_yfXxDW0-OsM",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		},
 		{
 			"meta": {},
@@ -2468,6 +2526,50 @@
 			"typeName": "instance_page_state"
 		},
 		{
+			"x": 78.17694286891908,
+			"y": 1005.8329023844987,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:RznnSefGET7ERjWnyH2TV",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 1051.682845588758,
+					"y": -63.46361999242504
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "serif",
+				"scale": 1
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "aAY1X4pV",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:yK_k2EifQ3av_9TtiS1Fy",
 			"type": "arrow",
@@ -2622,6 +2724,147 @@
 				},
 				"snap": "none",
 				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 1181.2676869318268,
+			"y": 609.6394532773404,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:dJC3EihcL-G_UpDtYQmjm",
+			"type": "geo",
+			"props": {
+				"w": 456.1846925025634,
+				"h": 220.54021431749348,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 3
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "Quick summary"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.data    body data (POST, PUT)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.method  GET, POST, PUT, DELETE"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.user    current user"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.query_params    URL parameters"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a6JQIi0V",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:QI20OvGw1l8F4aX6KfZYv",
+			"type": "arrow",
+			"fromId": "shape:XL2G6q2ZMpzxWvSt3L0tt",
+			"toId": "shape:I90knV5mydJwGyBXlcPyk",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.49999999999999994
+				},
+				"snap": "center",
+				"terminal": "start"
 			},
 			"typeName": "binding"
 		},
@@ -2800,6 +3043,904 @@
 			},
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "b0EMkGqqV",
+			"typeName": "shape"
+		},
+		{
+			"x": 220.023417172952,
+			"y": -34.295534863334865,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:17NuMclFw3wrXSkKMFJ-k",
+			"type": "geo",
+			"props": {
+				"w": 1934.6172206490369,
+				"h": 1104.4878257791775,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "REST_FRAMEWORK = {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    'DEFAULT_AUTHENTICATION_CLASSES': ("
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "        'rest_framework_simplejwt.authentication.JWTAuthentication', # 👈 use JWT not session"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    ),"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "}"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "---"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "## 2. Why 2 tokens? (access + refresh)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "think about it like this:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "the "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "access token"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": " is the one sent with every request. so if a hacker steals it, he can use it to access your API. to reduce the damage → we make it "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "expire very fast (5 min)"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "but if it expires every 5 min, the user has to login again every 5 min → "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "bad experience"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "so we introduce the "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "refresh token"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ":"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "- it lives longer (24h or more)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "- it's only used for "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "one job"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": " → get a new access token silently, without asking the user to login again"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "access token  →  short life (5 min)  →  used in every request"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "refresh token →  long life (24h)     →  used only to get new access token"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "---"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "## 3. The real flow"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "user logs in"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "gets access token (5 min) + refresh token (24h)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "sends access token with every request"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "after 5 min → access token expires"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "sends refresh token to api/token/refresh/"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "gets new access token (silently, no login needed)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "      ↓"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "continues normally"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "the user "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "never feels"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": " the token expired. it just refreshes in the background."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "---"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "## 4. Why do we create views and routes for them?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "because getting a token and refreshing a token are just "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "API endpoints"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": " like any other. the client needs to hit a URL to get them."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "```"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "POST api/token/         →  \"here is my username+password, give me tokens\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "POST api/token/refresh/ →  \"here is my refresh token, give me new access token\""
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:ldEzrqMHnssGXt_adclVS",
+			"index": "a1MfZwgV",
 			"typeName": "shape"
 		},
 		{
@@ -2987,6 +4128,81 @@
 			},
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "aU8xEv1V",
+			"typeName": "shape"
+		},
+		{
+			"x": 1210.8217990276762,
+			"y": 342.3837993601942,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:I90knV5mydJwGyBXlcPyk",
+			"type": "geo",
+			"props": {
+				"w": 409,
+				"h": 188.45173568349017,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 2 — The Request Object"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "In DRF, "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "request"
+								},
+								{
+									"type": "text",
+									"text": " is not the same as Django's default request. DRF wraps it with extra features."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a7UlSb5l",
 			"typeName": "shape"
 		},
 		{
@@ -4205,6 +5421,55 @@
 			"parentId": "page:nqsy0QsI5xx-rYuBh3DV_",
 			"index": "aGiKL92d",
 			"typeName": "shape"
+		},
+		{
+			"x": 425.95684270476795,
+			"y": 1057.5069272076491,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:gZUsA-_BZ7AoPdMq5bZJa",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/JEAAAAAAAAAkRAAAAAAkQAAAJEAkRAAAJEA2RgAAAAAlSAAAJEAkRAAAAAA2RgAAJEQkRAAAAAA2RgAAJEAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAApQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAA2RgAAAAAkQAAAAAAkQAAAAAAkQAAAJMAkRAAAJMAkQAAAJMAkQAAAJMAkQAAAJMApQAAAJMAkQAAAJMAkQAAAJMAAAAAAJMAkQAAAJMAAAAAAJMAkQAAAJMAkQAAAJMAkQAAAJMAkQAAAJMQkQAAAJsQkRAAAJMQkQAAAJMQkRAAAJMQkRAAAJMAAAAAAJMAkQAAAJMQkQAAAJMQAAAAAJMApQAAAJMAAAAAAJMQAAAAAJsQAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMApwAAAJMQAAAAAJMAAAAAAJMAAAAAANsYAAAAAJMAAAAAAJMQkxAAAJsQAAAAAJMAAAAAAJMAAAAAAJMAAAAAANsYkwAAAJMAkwAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAkwAAAJMAAAAAAJMAAAAAAJMAAAAAAKcAAAAAAJMAkwAAAJMQkwAAAJMAAAAAAJMAkwAAAJMQAAAAAJMQkwAAANsYAAAAANsYkwAAAJMQAAAAAOMYAAAAAJMgAAAAANsYAAAAANsYkxAAANsYAAAAAJMQAAAAALskAAAAAJMgAAAAAJMgAAAAAJMQAAAAANsYAAAAAOMYAAAAANsYAAAAALckAAAAANsYAAAAANsYAAAAAJMQAAAAAOMYAAAAAJMQAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAAAAAAAAAJMAkwAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMQkwAAAKcAkwAAAJMAkwAAAJMAkwAAAJMApwAAAJMAkwAAAAAA2xgAAJMQkxAAAJMAkwAAAAAAkwAAAJMAkxAAAJMAkwAAAJMA2xgAAJMAkwAAAAAAkwAAAJMA4xgAAAAAkwAAAAAAkwAAAAAAkxAAAJMAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAJEAmxAAAJEAkwAAAJEAkwAAAJEAAAAAAJEAkwAAAJEAAAAAAJEQkxAAAJEAkwAAAJEAAAAAA"
+					}
+				],
+				"color": "red",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a7sNX0cV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:fjk_YqGGwOLpzycAdeHyy",
+			"type": "arrow",
+			"fromId": "shape:kChRkUfUgOkm43UttJKum",
+			"toId": "shape:rhbw627Tg_yfXxDW0-OsM",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5000000000000001,
+					"y": 0.5
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		},
 		{
 			"meta": {},
@@ -6738,7 +8003,7 @@
 		{
 			"meta": {},
 			"id": "page:nqsy0QsI5xx-rYuBh3DV_",
-			"name": "django_rest_framework",
+			"name": "Serializers",
 			"index": "a6zGFvkG",
 			"typeName": "page"
 		},
@@ -6864,6 +8129,77 @@
 			},
 			"parentId": "page:i3bT_AAjfBYCBQu51Zxwe",
 			"index": "aSiGKneV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1142.4901225233848,
+			"y": 876.748615111383,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:p0yIfiitDGHo66O5-RjkY",
+			"type": "geo",
+			"props": {
+				"w": 531,
+				"h": 145.0597028398288,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 4 — Permissions"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Permissions answer one question: "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "is this user allowed to access this view?"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a9eafnhV",
 			"typeName": "shape"
 		},
 		{
@@ -7439,6 +8775,24 @@
 			"typeName": "shape"
 		},
 		{
+			"meta": {},
+			"id": "binding:7HPCG4RJtZ7YcVWQ4jQSw",
+			"type": "arrow",
+			"fromId": "shape:RznnSefGET7ERjWnyH2TV",
+			"toId": "shape:p0yIfiitDGHo66O5-RjkY",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.004268470540249333,
+					"y": 0.5
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
 			"x": 8016.873479987259,
 			"y": -1524.5443722834182,
 			"rotation": 0,
@@ -7775,6 +9129,37 @@
 			},
 			"parentId": "page:nqsy0QsI5xx-rYuBh3DV_",
 			"index": "aBzlU1G2V",
+			"typeName": "shape"
+		},
+		{
+			"x": 303.7950007190948,
+			"y": 517.0960668981461,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.5,
+			"meta": {},
+			"id": "shape:EfwJNpoxs6QwecMfZBqgc",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/JMAAAAAAJMQAAAAAJMQAAAAAJMgAAAAAJsQAAAAAJMgAAAAAJMgAAAAALckAAAAANsYAAAAAJcgAAAAANsYAAAAAJMgAAAAAJMgAAAAAJMgAAAAAJcgAAAAAJMQAAAAAJMgAAAAALckAAAAANsYAAAAAJcgAAAAANsYAAAAANsYAAAAANsYAAAAAJMAAAAAAJMAAAAAANsYAAAAAJMAkQAAAKcAAAAAANsYAAAAAJMAkQAAANsYkQAAAJMQkQAAANsYkQAAAJMAAAAAANsY2RgAAJMAkQAAAKcApQAAAJMAAAAAAJMAkQAAAJMAkQAAAJMQ2RgAAJMAkQAAAJMAkRAAAJMAkQAAAJMQ2RgAAAAAkQAAAJMAkRAAAAAAkRAAAJMAmRAAAAAAkRAAAJMAkRAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkRAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAA4RgAAAAAkQAAAAAA2RgAAAAAkQAAAAAAkQAAAJEAkRAAAAAAkQAAAJEAkRAAAJEAkQAAAJEAkQAAAJEQkRAAAJEQkQAAAJEQpQAAAJEQAAAAAJEAkQAAAKUAAAAAANkYAAAAAJEAAAAAAJEAkQAAAJEAkQAAANkYAAAAAJEQAAAAANkYkQAAAJEQAAAAALkkkQAAAJEgAAAAAJEQAAAAALUkkQAAANkYAAAAAJEwkQAAALUkkQAAAJEgAAAAALkkkQAAANkYAAAAAJEgAAAAAJEgAAAAAJEQAAAAANkYAAAAAOEYkQAAAJEQAAAAAJEAkQAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQkQAAAJEAkQAAAOEYAAAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAJEQkwAAAJEQkwAAAJkQkxAAAJEAkxAAAJEgkyAAAJEAkxAAAJEAmxAAANkY2xgAAJEQkyAAAJEAkxAAAJEAkwAAAJEQkxAAAAAAkwAAAJEAkwAAAKUAkwAAAJEAkwAAAJEAkwAAAJEAmxAAAJEQkyAAAJEAkwAAAJEAkwAAAAAAkwAAAAAAkwAAAJEAkxAAAAAAkxAAAAAAkwAAAAAAkxAAAAAA4xgAAAAAkxAAAAAAkxAAAAAAkxAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAJMAAAAAAJMQAAAAAJMQkxAAAJMQAAAAAJcgAAAAAJMQkwAAAJMAAAAAANsYAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAKcAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMQAAAAAJMAAAAAANsYAAAAAJMAkQAAAJMAAAAAANsYAAAAAJMAAAAAAJMAAAAAAJsQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQkwAAAJMAkwAAAJMQkwAAANsYmxAAA"
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a39KYv2V",
 			"typeName": "shape"
 		},
 		{
@@ -8280,6 +9665,55 @@
 			"typeName": "shape"
 		},
 		{
+			"meta": {},
+			"id": "binding:yKE-U9PT1rGKnPmRrGFOO",
+			"type": "arrow",
+			"fromId": "shape:kChRkUfUgOkm43UttJKum",
+			"toId": "shape:K-6UT37Yt1e389bfK4hGd",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.009178499376495295,
+					"y": 0.7129018101240335
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 336.9236358338537,
+			"y": 521.237146287491,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.25,
+			"meta": {},
+			"id": "shape:SbOV_4g1CvUIu6h2nh_HQ",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/AAAAAAAAJMQAAAAANsYAAAAANsYAAAAAJcgAAAAANsYAAAAANsYAAAAANsYAAAAAJMQkwAAAJMQAAAAAOMYkwAAAJMQAAAAAJMAAAAAAJMQAAAAAJMgkwAAAJMAkwAAAJMAkwAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAkwAAAJMQAAAAAJMAAAAAAKcAAAAAAJMQAAAAAJMQAAAAAJMAAAAAANsYAAAAAJMAAAAAANsYAAAAAJMQAAAAAJMAAAAAAJMQAAAAAKcAAAAAAJMQAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJsQAAAAAJMAkQAAAJMAkRAAAJMAkQAAAJMAkQAAAJMQkRAAAJMAkQAAAJMAkRAAAAAAkQAAAAAAkQAAAJMAkQAAAAAAkQAAAAAA4RgAAJMAkRAAAJMAkQAAAAAAkRAAAJMAkQAAAAAA2RgAAAAAkQAAAJMAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAmRAAAAAAkRAAAAAAkQAAAAAAkQAAAJMAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAA2RgAAAAApQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkRAAAAAA2RgAAJEAkQAAAAAAkQAAAJEQkRAAAJEAkQAAAJEQ2RgAAAAApQAAAJEAkQAAAJEAkQAAAJEQkQAAAJEAkQAAAJEAAAAAAJEQkRAAAKUAkQAAAJEQkQAAAJEQkQAAAJEAkQAAAJEAkQAAAJEAAAAAAJEAAAAAAJEAkQAAAJEAkQAAAJEQkQAAAJEQAAAAAJEAAAAAANkYAAAAAJkQAAAAANkYAAAAAJEQkwAAANkYAAAAAJEQAAAAAJEgkxAAAJEQAAAAAJkQAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAOEYAAAAAJEAAAAAAJEQkwAAAJEAAAAAANkYAAAAANkYkwAAAJEQkwAAAJEQAAAAAJEAAAAAAKUAAAAAAJEAkwAAAJEAkwAAAJEAkwAAAJEAkwAAAJEAkwAAAJEAkwAAAAAAkwAAAJEAkwAAAJEApwAAAJEAkxAAAJEAkwAAAJEAkwAAAJEAkwAAAAAAkwAAAJEAkxAAAJEAkwAAAJEAkwAAAJEAkxAAAJEAkxAAAJkQkxAAAAAAkwAAAJEA4xgAAJEAkwAAAJEAkxAAAJEAkwAAAJEAkwAAAJEAkwAAAAAAkwAAAAAAkwAAAJEAkwAAAAAAkwAAAJEAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAAAA4xgAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAAAAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkwAAAJMA4xgAAJMAkwAAAJMAAAAAAJMAkwAAAJMAAAAAAJMQAAAAAJMAAAAAAKcAAAAAAJMAAAAAAJMAAAAAA"
+					}
+				],
+				"color": "light-green",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a27ryQ2V",
+			"typeName": "shape"
+		},
+		{
 			"x": -646.5730419174852,
 			"y": 771.0664541647598,
 			"rotation": 0,
@@ -8541,6 +9975,13 @@
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "a4QxzIKl",
 			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:nPltO-LOWbdeGBd2zxmGr",
+			"name": "rest_framework_api_views",
+			"index": "a8wnAOpV",
+			"typeName": "page"
 		},
 		{
 			"x": 1290.4858349542394,
@@ -9261,6 +10702,21 @@
 			"typeName": "shape"
 		},
 		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:17NuMclFw3wrXSkKMFJ-k"
+			],
+			"hoveredShapeId": "shape:17NuMclFw3wrXSkKMFJ-k",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:ldEzrqMHnssGXt_adclVS",
+			"pageId": "page:ldEzrqMHnssGXt_adclVS",
+			"typeName": "instance_page_state"
+		},
+		{
 			"meta": {},
 			"id": "binding:er68LpK703VoyzUuUNEOD",
 			"type": "arrow",
@@ -9570,6 +11026,50 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 197.4795442166364,
+			"y": 776.013142257255,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:Ztoe7kT8F4_yDNQ8Fjdze",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 1062.966173097235,
+					"y": -239.2587090648417
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "serif",
+				"scale": 1
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a7kOWQYt",
+			"typeName": "shape"
+		},
+		{
 			"x": 5937.9098882634535,
 			"y": -3766.9431513102663,
 			"rotation": 0,
@@ -9614,6 +11114,50 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 675.193324101293,
+			"y": 751.1194107519491,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:kChRkUfUgOkm43UttJKum",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 479.2729900472077,
+					"y": -336.3704930147834
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "serif",
+				"scale": 1
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a3UCOzrt",
+			"typeName": "shape"
+		},
+		{
 			"x": 16.99063458321325,
 			"y": -2843.32578039396,
 			"rotation": 0,
@@ -9655,6 +11199,90 @@
 			},
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "b0N4LjuDV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1184.318048985901,
+			"y": -378.69639680444004,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:K-6UT37Yt1e389bfK4hGd",
+			"type": "geo",
+			"props": {
+				"w": 462,
+				"h": 183.34961979248172,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "heading",
+							"attrs": {
+								"dir": "auto",
+								"level": 2
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Step 1 — What is APIView?"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "APIView"
+								},
+								{
+									"type": "text",
+									"text": " is the "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "base class"
+								},
+								{
+									"type": "text",
+									"text": " in DRF for building API endpoints. It's just a class that handles HTTP requests."
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a2SDF83V",
 			"typeName": "shape"
 		},
 		{
@@ -9722,6 +11350,50 @@
 			},
 			"parentId": "page:page",
 			"index": "a7q3VXkV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1406.025290599748,
+			"y": 528.9595122992462,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:XL2G6q2ZMpzxWvSt3L0tt",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 4.313889316509858,
+					"y": 94.9055649632171
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "serif",
+				"scale": 1
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a8kDSY6V",
 			"typeName": "shape"
 		},
 		{
@@ -10617,6 +12289,19 @@
 			"typeName": "shape"
 		},
 		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:0UKLqee2iy7L-sbNc46Mt",
+			"pageId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"typeName": "instance_page_state"
+		},
+		{
 			"x": 645.2949272095858,
 			"y": 1523.868499127767,
 			"rotation": 0,
@@ -10864,6 +12549,230 @@
 			},
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "a3FxDVmV",
+			"typeName": "shape"
+		},
+		{
+			"x": 1129.8724867956485,
+			"y": -98.97404346768872,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:IxSASEoFVzc4t0n4U7Plg",
+			"type": "geo",
+			"props": {
+				"w": 585.0834626227302,
+				"h": 336.35953129791517,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "from rest_framework.views import APIView"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "from rest_framework.response import Response"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "class MyView(APIView):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    def get(self, request):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "        return Response({ \"message\": \"hello\" })"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    def post(self, request):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "        return Response({ \"message\": \"created\" })"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    def put(self, request):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "        return Response({ \"message\": \"updated\" })"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    def delete(self, request):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "        return Response({ \"message\": \"deleted\" })"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a4bDrH8V",
 			"typeName": "shape"
 		},
 		{
@@ -11981,6 +13890,14 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -56.4132131690576,
+			"y": 109.5557281908898,
+			"z": 0.6145055879768828,
+			"meta": {},
+			"id": "camera:page:ldEzrqMHnssGXt_adclVS",
+			"typeName": "camera"
+		},
+		{
 			"meta": {},
 			"id": "binding:DfR9XuTw5kOY9SSgWzIUR",
 			"type": "arrow",
@@ -12015,6 +13932,442 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": -313.41416413411037,
+			"y": 560.6754021344592,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:rhbw627Tg_yfXxDW0-OsM",
+			"type": "geo",
+			"props": {
+				"w": 468.99999999999994,
+				"h": 809.5,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "APIView"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 1. BASICS"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── what is APIView"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── class structure"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── HTTP methods (get, post, put, delete)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 2. REQUEST"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "http://request.data",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										}
+									],
+									"text": "request.data"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── request.method"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── request.user"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── request.query_params"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 3. RESPONSE"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── Response()"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── status codes"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 4. PERMISSIONS"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── AllowAny"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── IsAuthenticated"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── custom permissions"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 5. AUTHENTICATION"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── JWTAuthentication"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "├── 6. VALIDATION"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   ├── manual validation"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│   └── with serializers"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "└── 7. REAL WORLD"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    ├── CRUD operations"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "    └── connect to models"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a1s53BuV",
+			"typeName": "shape"
 		},
 		{
 			"x": 518.2237613446378,
@@ -12342,6 +14695,45 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": 765.0834310973364,
+			"y": 388.11618018577667,
+			"z": 0.5285106649132754,
+			"meta": {},
+			"id": "camera:page:0UKLqee2iy7L-sbNc46Mt",
+			"typeName": "camera"
+		},
+		{
+			"x": 365.91119155926754,
+			"y": 924.9923867486139,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:1i_y20lpgCgCvCD1viXug",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/JEAAAAAAJEQAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAOEYAAAAAJEQAAAAAJEAAAAAANkYkQAAAJEAAAAAAJEQAAAAAJEQAAAAAJEQkQAAAOEYAAAAAJEAAAAAANkYAAAAAJEQAAAAANkYkQAAAJEQAAAAANkYAAAAAJEQAAAAAJEAAAAAAOEYAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEQkQAAAJEQkQAAAJEAAAAAAJEAkQAAAJEQAAAAAJEQAAAAAKUAkQAAAJEQAAAAAJEQkQAAANkYAAAAAJEAAAAAAJEAAAAAAAAAkQAAAAAApQAAAAAA2RgAAAAAkQAAAAAAkRAAAJMAkRAAAJMAkRAAAJMA2RgAAJMAkRAAAAAAkQAAAJMQmRAAAAAAkRAAAJMAkQAAAAAA2RgAAJMAkQAAAJMAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAJsQkRAAAAAAkQAAAAAAkQAAAJMAkQAAAJMAkQAAAJMAmRAAAJMAkQAAAJMAkQAAAJMAkQAAAJMAkQAAAJMAAAAAAJMAAAAAAJMQkRAAAJMQAAAAAJMQkQAAAOMYAAAAAJMQkQAAAJMAAAAAANsYkQAAAJMAAAAAAJMAAAAAAJMQkRAAAJMAAAAAAJMAkQAAAJMAAAAAAJMQAAAAAJMQAAAAAJsQkQAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMQAAAAANsYAAAAAJsQAAAAAJMQAAAAAJMQAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJsQAAAAAJMQAAAAANsYAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAOMYAAAAAJMAkQAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAANsYkRAAAJMQAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJsQAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAANsYAAAAAJMQAAAAAOMYAAAAAJMQAAAAANsYAAAAAJMAAAAAAJMgAAAAAJMAAAAAANsYAAAAAJMAAAAAAJMQAAAAAOMYAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMQAAAAANsYAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAKcAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMQAAAAAJMQAAAAAJMAAAAAAJMQkwAAAJMQAAAAAJMAAAAAAKcAAAAAANsYkwAAAJMAAAAAAJMAkwAAAJMAAAAAAJMQAAAAAJMAAAAAAAAAkwAAAJMAkwAAAJMAkwAAAJMAkwAAAJMQkwAAAJMAAAAAAJMAkwAAAJsQkwAAAJMAkwAAAJMAkwAAAJMQAAAAAJMAkwAAAAAAkwAAAAAAkwAAAAAAlyAAAAAAkwAAAAAAkxAAAAAA2xgAAAAAkxAAAAAA2xgAAAAAkxAAAAAAkxAAAAAAkxAAAAAApwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAJEApwAAAJEAkwAAAJEAAAAAAJEAkwAAAJEAkwAAAKUAkwAAAAAAkwAAANkYkwAAAJEAAAAAAJEQkwAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQkwAAAJEAkwAAAJEAAAAAAJEAkwAAAJEQAAAAAJEAkwAAAKUAAAAAAJEAkwAAA"
+					}
+				],
+				"color": "red",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a6j1tQtV",
+			"typeName": "shape"
 		},
 		{
 			"x": 809.155179824892,
@@ -12709,6 +15101,1015 @@
 				"terminal": "end"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": 82.52046918623478,
+			"y": -76.03193228598741,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:l68UDzQUg04tP3SZ9oDWn",
+			"type": "geo",
+			"props": {
+				"w": 765.0332068709142,
+				"h": 1371.8298761413248,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "s",
+				"font": "serif",
+				"align": "start",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "Django REST Framework"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 1. SETUP"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── install (pip install djangorestframework)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── add to INSTALLED_APPS"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── REST_FRAMEWORK settings"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 2. VIEWS  ← start here"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── APIView          (class based, full control)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── @api_view        (function based)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── GenericAPIView   (built-in logic)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── ViewSets         (advanced, groups views together)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 3. SERIALIZERS  ← how data is converted"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── Serializer           (manual, full control)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── ModelSerializer      (automatic from model)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── fields               (CharField, IntegerField ...)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── validate()           (custom validation)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── nested serializers   (serializer inside serializer)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 4. URLS & ROUTERS"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── manual urlpatterns   (with APIView)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── Router               (automatic urls with ViewSets)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 5. REQUEST & RESPONSE"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "http://request.data",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.data"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "         (replaces "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "link",
+											"attrs": {
+												"href": "http://request.POST",
+												"target": "_blank",
+												"rel": "noopener noreferrer nofollow",
+												"class": null
+											}
+										},
+										{
+											"type": "code"
+										}
+									],
+									"text": "request.POST"
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": ")"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── request.user         (current user)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── Response()           (replaces JsonResponse)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── status codes         (status.HTTP_200_OK ...)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 6. PERMISSIONS"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── AllowAny"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── IsAuthenticated"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── IsAdminUser"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── custom permissions"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 7. AUTHENTICATION"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── SessionAuthentication"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── BasicAuthentication"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── JWTAuthentication    (simplejwt)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 8. FILTERING & SEARCH & ORDERING"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── FilterBackend"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── SearchFilter"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── OrderingFilter"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "├── 9. PAGINATION"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── PageNumberPagination"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   ├── LimitOffsetPagination"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│   └── CursorPagination"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "│"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "└── 10. THROTTLING"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    ├── AnonRateThrottle     (limit requests for anonymous users)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "code"
+										}
+									],
+									"text": "    └── UserRateThrottle     (limit requests for logged in users)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a1gEPEQV",
+			"typeName": "shape"
 		},
 		{
 			"x": 621.574780525828,
@@ -13346,6 +16747,24 @@
 			"parentId": "page:eTlYgnlZOseqlH1uxBcg_",
 			"index": "b0Pkn9HOV",
 			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:fVGZpWSlrp_B6OKg6_Uxs",
+			"type": "arrow",
+			"fromId": "shape:qbs29XFawUdSR1f7HuyC2",
+			"toId": "shape:IxSASEoFVzc4t0n4U7Plg",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.49019769478329395,
+					"y": 0.09374999999999954
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
 		},
 		{
 			"meta": {},
@@ -14233,12 +17652,11 @@
 		},
 		{
 			"followingUserId": null,
-			"opacityForNextShape": 1,
+			"opacityForNextShape": 0.75,
 			"stylesForNextShape": {
-				"tldraw:color": "light-blue",
 				"tldraw:geo": "rectangle",
-				"tldraw:size": "m",
-				"tldraw:dash": "solid",
+				"tldraw:size": "s",
+				"tldraw:color": "blue",
 				"tldraw:font": "serif",
 				"tldraw:horizontalAlign": "start"
 			},
@@ -14255,7 +17673,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 912,
+				"w": 1640,
 				"h": 934
 			},
 			"insets": [
@@ -14281,7 +17699,7 @@
 			"duplicateProps": null,
 			"cameraState": "idle",
 			"id": "instance:instance",
-			"currentPageId": "page:nqsy0QsI5xx-rYuBh3DV_",
+			"currentPageId": "page:ldEzrqMHnssGXt_adclVS",
 			"typeName": "instance"
 		},
 		{
@@ -14778,6 +18196,50 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 1374.489744966325,
+			"y": 379.66046204208624,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:qbs29XFawUdSR1f7HuyC2",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "s",
+				"fill": "none",
+				"color": "red",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -24.025680806993932,
+					"y": 127.63642928715524
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "serif",
+				"scale": 1
+			},
+			"parentId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"index": "a5kYQ3KV",
+			"typeName": "shape"
+		},
+		{
 			"x": 209.51439028932208,
 			"y": 640.5878940274935,
 			"rotation": 0,
@@ -14988,6 +18450,37 @@
 				"terminal": "start"
 			},
 			"typeName": "binding"
+		},
+		{
+			"x": 131.94020606128356,
+			"y": 802.8305447629407,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:QHNcONjSbv7xQ_WL7x9lu",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/AAAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMgkQAAAKcAkQAAAJMQAAAAAJMAkQAAAJMAkQAAAJMAAAAAAJMQkRAAAJMAAAAAAJMAkQAAAJMAkQAAAJMAkQAAAAAApQAAAAAAkQAAAAAAkQAAAJMQkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAApQAAAAAAkRAAAAAAkQAAAAAAkQAAAJEAkQAAAJEAkQAAAAAAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkQAAAJEAkRAAAJEAAAAAAKUAAAAAAJEApQAAAJEAkQAAAJEAkQAAAJEAkRAAAJEAkQAAAJEAkQAAAJEQkRAAAJEAkQAAAJEAkQAAAJEAkQAAAJEQkRAAAJEAAAAAAJEAAAAAAJEAkQAAAJEQkQAAAJkQkQAAAJEAAAAAAJEQkQAAAJEApQAAAJEAkQAAAJEAAAAAAJEAAAAAAJEQkQAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAOEYAAAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJkQAAAAANkYAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJkQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAAAAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJkQAAAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEQAAAAANkYAAAAAJEAAAAAAKUAAAAAAJEQAAAAAJEQAAAAANkYAAAAAJEQAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEAAAAAAAAAAAAAAKUAkwAAAJEAkwAAAJEApwAAAAAAkwAAAAAAkwAAAAAAAAAAAJEAkwAAAJEAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAAkwAAAJEQkxAAAJEAkwAAAAAAkxAAAJEAkwAAAJEAkwAAAJEQmxAAAAAAkwAAAJEAAAAAAAAAkwAAAJEAkwAAAJEAkwAAAJEAkxAAAJEAkwAAAJEAkwAAAAAAkxAAAKUAkwAAAJEAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAJEQkxAAAAAAmxAAAJEAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAJMAkxAAAJMAkwAAAJMAkwAAAJsQkxAAAJMQkwAAAJMAAAAAAJMAkwAAANsYkxAAAJMAkwAAAJMApwAAAJMAkwAAAJMAkwAAA"
+					}
+				],
+				"color": "red",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a5eQMFmV",
+			"typeName": "shape"
 		},
 		{
 			"x": 8301.155634628794,
@@ -15857,6 +19350,24 @@
 			"typeName": "binding"
 		},
 		{
+			"meta": {},
+			"id": "binding:dMu8LxuRGifVI6HQ9c5hl",
+			"type": "arrow",
+			"fromId": "shape:qbs29XFawUdSR1f7HuyC2",
+			"toId": "shape:K-6UT37Yt1e389bfK4hGd",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5000000000000001
+				},
+				"snap": "center",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
 			"x": 1027.807213697554,
 			"y": 547.635070799215,
 			"rotation": 0,
@@ -16502,6 +20013,37 @@
 			},
 			"parentId": "page:nqsy0QsI5xx-rYuBh3DV_",
 			"index": "a3ltcmgV",
+			"typeName": "shape"
+		},
+		{
+			"x": 351.41741369656074,
+			"y": 668.2454646092332,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:sT8NZBxB6qhGPfbnVaydQ",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"path": "AAAAAAAAAAAAAAA/JMAAAAAAJMAAAAAAJMQkQAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAOMYAAAAAJMAAAAAAJMAAAAAANsYAAAAAJMAAAAAANsYAAAAAJMQAAAAANsYAAAAAOMYAAAAANsYAAAAANsYAAAAANsYAAAAAJMgAAAAALskAAAAAJMQAAAAAJMgAAAAAJMQAAAAANsYAAAAAJMAAAAAAJMAAAAAANsYAAAAAJMAAAAAAKcAAAAAANsYAAAAAJMAAAAAANsYAAAAAJMQAAAAAJMAAAAAAJMgkwAAAJMAkwAAAJMQAAAAAJMAAAAAAKcAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAAAAAAJsQAAAAAJMAAAAAAJMAAAAAAJMAAAAAAJMQAAAAAJMQkQAAAJMAAAAAAJMQAAAAAJMAAAAAAJMAAAAAAJMAAAAAANsYkQAAAJMAAAAAAJMAkQAAAKcAAAAAAJMQkQAAAAAAkQAAAAAAkQAAAAAAAAAAAJMAkQAAAAAAkQAAAAAAkQAAAAAAkQAAAAAApQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAkRAAAAAApQAAAJMAkRAAAAAAkRAAAAAAkQAAAAAAkRAAAAAAkRAAAJMAkQAAAJMAkQAAAAAAkQAAAAAAkRAAAAAAkQAAAAAAkQAAAAAAkQAAAAAAmRAAAAAAkRAAAAAAkQAAAAAAkRAAAAAAkQAAAJEAkQAAAJEAkQAAAAAAkRAAAAAAkQAAAJEAkQAAAAAAkQAAAJEQkRAAAAAAkQAAAJEAkQAAAAAApQAAAJkQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAkQAAAJEQAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEQAAAAAOEYAAAAAJEQAAAAAJEAAAAAANkYAAAAAJEQAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJkQAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAOEYAAAAAJEAAAAAAJEAAAAAANkYAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEQAAAAAKUAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEQkRAAAJEQAAAAAJkQkQAAAJEAAAAAAJEQAAAAAJEAkQAAAJEAAAAAAJEAAAAAAJEQkQAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJkQAAAAAJEAkQAAAJEAkQAAAJEAAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJEQAAAAAJEAAAAAAJEQAAAAAJkQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAAAAAAJEAAAAAAJEAAAAAAJEQAAAAAJEAkwAAAJEAkwAAAJEAAAAAAJEQkwAAAJEAkwAAAKUAkwAAAJEAkwAAAJEQkwAAAJEAkwAAAJEApwAAAJEAkxAAAJEAkyAAAAAAkwAAAAAA2xgAAAAAkwAAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAAAAkwAAAAAApwAAAAAA2xgAAAAAkwAAAAAAkwAAAAAAkxAAAAAAkwAAAJMAkwAAAJMAkwAAAJMAAAAAAJMAkwAAAJMAAAAAAOMYkxAAAJMQkwAAAJMQAAAAAJMAkwAAAJMAAAAAAJMAAAAAAJMQAAAAAJMAkwAAAJMAAAAAAJMQkxAAAJMQpwAAAJMAkwAAAJsQkwAAAJMQAAAAAJMQkxAAAJMAkwAAAJMQkwAAAJMAkwAAAJMAkwAAAJMAkwAAAAAAkwAAAJMAkwAAAJMAkwAAAJMAkwAAAJMAkwAAAAAAkwAAAAAAkwAAAJMAkwAAAAAApwAAAAAAkwAAAJMQkxAAAAAAkxAAAAAAkwAAAAAAkwAAAJMAkwAAAAAAkwAAAAAAkwAAAKcAkwAAAAAAkwAAAAAAkxAAAAAAkwAAA"
+					}
+				],
+				"color": "red",
+				"fill": "none",
+				"dash": "draw",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1,
+				"scaleX": 1,
+				"scaleY": 1
+			},
+			"parentId": "page:0UKLqee2iy7L-sbNc46Mt",
+			"index": "a4nJO0MV",
 			"typeName": "shape"
 		},
 		{
@@ -17262,6 +20804,19 @@
 			"typeName": "shape"
 		},
 		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:nPltO-LOWbdeGBd2zxmGr",
+			"pageId": "page:nPltO-LOWbdeGBd2zxmGr",
+			"typeName": "instance_page_state"
+		},
+		{
 			"meta": {},
 			"id": "binding:JeoxEguPnQZXGsSS1v5Gx",
 			"type": "arrow",
@@ -17380,6 +20935,24 @@
 				"normalizedAnchor": {
 					"x": 0.024452543882010062,
 					"y": 0.5213057025029729
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:DJ8Atp1AMMNxV3RK4pAMv",
+			"type": "arrow",
+			"fromId": "shape:Ztoe7kT8F4_yDNQ8Fjdze",
+			"toId": "shape:I90knV5mydJwGyBXlcPyk",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.09453668491577921,
+					"y": 0.5371354800322683
 				},
 				"snap": "none",
 				"terminal": "end"
@@ -17698,6 +21271,24 @@
 					"y": 0.9201296792696756
 				},
 				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:7Hl1E-Ei7DDrfMcKy6c0J",
+			"type": "arrow",
+			"fromId": "shape:RznnSefGET7ERjWnyH2TV",
+			"toId": "shape:rhbw627Tg_yfXxDW0-OsM",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5,
+					"y": 0.5
+				},
+				"snap": "center",
 				"terminal": "start"
 			},
 			"typeName": "binding"
