@@ -25,3 +25,18 @@ tomorow 11 march:
     - should return to permetion and try it again 
     - 1. localStorage
     - 2. httpOnly cookie  ← more secure
+
+
+
+//what should i do in this steps ??
+practece permissions, jwt 
+views in rest_framework
+
+what view in restframework ?? 
+
+we have two : api_view-> decorator  APIview -> class (this can handle the mothod directly ), 
+
+api_view this is called just if specific method !!
+what is the beninifit of each one ??
+the class api can call it just if we have sepcific method , 
+but decorator  u can call it when 
