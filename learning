@@ -1,9 +1,0 @@
-(*args, **kwargs)
-article.save(update_fields=["title"])
-slug done
-clean and full clean 
-verbose_name done
-verbose_name_plural done
-get_absolute_url
-reverse
-select_related & prefetch_related
